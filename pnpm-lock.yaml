@@ -36,6 +36,31 @@ importers:
       '@types/react-dom': 18.2.7
       typescript: 5.2.2
 
+  packages/ui/sample:
+    specifiers:
+      '@burki/core': workspace:^1.0.0
+      '@emotion/react': ^11.11.1
+      '@mantine/core': ^6.0.20
+      '@mantine/hooks': ^6.0.20
+      '@storybook/react': ^7.4.1
+      '@types/react': ^18.2.21
+      '@types/react-dom': ^18.2.7
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^5.2.2
+    dependencies:
+      '@burki/core': link:../../core
+      '@emotion/react': 11.11.1_gq4reeurwxuj4hvyerswzzqthy
+      '@mantine/core': 6.0.20_c56o2cjffvkkanfwtvbtfdrxka
+      '@mantine/hooks': 6.0.20_react@18.2.0
+      '@storybook/react': 7.4.1_vegmnuvoswdxuttpuhvewcem44
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.2.21
+      '@types/react-dom': 18.2.7
+      typescript: 5.2.2
+
   storybook:
     specifiers:
       '@storybook/addon-essentials': ^7.4.1
